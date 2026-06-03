@@ -1,51 +1,51 @@
 # 100hires-portfolio
 
-Portfolio del proceso de selección laboral 100hires — Franco Giglio
+Portfolio project for the 100hires junior growth marketing specialist selection process — Franco Giglio
 
 ---
 
-## Herramientas instaladas
+## Tools Installed
 
 ### Cursor IDE
-Editor de código basado en VS Code con capacidades de IA integradas. Disponible en [cursor.com](https://www.cursor.com/).
+AI-powered code editor built on VS Code, available at [cursor.com](https://www.cursor.com/). It combines a familiar coding environment with built-in AI assistance, making it easy to write, debug, and navigate code using natural language.
 
-### Claude Code for VS Code (Anthropic)
-Extensión oficial de Anthropic para VS Code / Cursor que integra el asistente Claude directamente en el editor. Permite hacer preguntas, generar código y navegar el codebase usando lenguaje natural.
+### Claude Code (Anthropic)
+Official Anthropic extension for VS Code / Cursor. Integrates the Claude AI assistant directly into the editor, enabling natural language queries about the codebase, code generation, and debugging — without leaving the IDE.
 
 ### Codex (OpenAI)
-Extensión de OpenAI para VS Code / Cursor que provee sugerencias de código y autocompletado basado en el modelo Codex.
+OpenAI's extension for VS Code / Cursor. Provides AI-powered code suggestions and autocomplete, helping write code faster based on context and intent.
 
 ---
 
-## Pasos completados
+## Steps Completed
 
-1. **Descarga e instalación de Cursor IDE** — Descargué el instalador desde cursor.com y lo instalé en Windows.
-2. **Instalación de extensión "Claude Code for VS Code"** — Busqué "Claude Code" en el Marketplace de Cursor y lo instalé desde el editor.
-3. **Instalación de extensión "Codex"** — Busqué "Codex" de OpenAI en el Marketplace de Cursor y lo instalé desde el editor.
-4. **Creación de la carpeta local `100hires-portfolio`** — Creé la carpeta en el sistema local y la abrí en Cursor (File > Open Folder).
-5. **Creación de este archivo `README.md`** — Documenté el proceso completo.
-6. **Publicación en GitHub** — Creé el repositorio público `100hires-portfolio` en la cuenta `francogiglio1801` y subí el archivo.
-
----
-
-## Problemas encontrados y soluciones
-
-### 1. El Marketplace de Cursor no siempre muestra extensiones del VS Code Marketplace oficial
-- **Problema:** Algunas extensiones disponibles en el VS Code Marketplace no aparecen en la búsqueda de Cursor por defecto, ya que Cursor usa su propio registry (Open VSX).
-- **Solución:** Se puede habilitar el acceso al marketplace de VS Code desde la configuración de Cursor, o buscar el ID exacto de la extensión e instalarla manualmente.
-
-### 2. Configuración de git para el primer push
-- **Problema:** Al inicializar el repo localmente, git requería configurar usuario y email antes de hacer el primer commit.
-- **Solución:** Se ejecutaron los comandos `git config --global user.name` y `git config --global user.email` con los datos de la cuenta de GitHub.
-
-### 3. Autenticación con GitHub desde la terminal
-- **Problema:** Al intentar hacer `git push`, GitHub solicitó autenticación. Las contraseñas tradicionales ya no son aceptadas por HTTPS.
-- **Solución:** Se generó un Personal Access Token (PAT) desde GitHub Settings > Developer settings y se usó ese token como contraseña.
+1. **Installed Cursor IDE** — Downloaded the installer from cursor.com and installed it on Windows.
+2. **Installed "Claude Code" extension** — Opened the Extensions panel in Cursor (Ctrl+Shift+X), searched for "Claude Code", and installed the Anthropic extension. Logged in with my Anthropic account.
+3. **Installed "Codex" extension** — Searched for "Codex" in the same Extensions panel and installed the OpenAI extension. Logged in with my OpenAI account.
+4. **Created the `100hires-portfolio` folder** — Created the project folder locally and opened it in Cursor via File > Open Folder.
+5. **Created this `README.md` file** — Documented the tools, steps, and issues encountered throughout the process.
+6. **Published to GitHub** — Created the public repository `100hires-portfolio` under the account `francogiglio1801` and pushed the file.
 
 ---
 
-## Repositorio
+## Issues Encountered & How I Solved Them
+
+### 1. Cursor's Extension Marketplace doesn't always show VS Code extensions
+- **Issue:** Cursor uses its own extension registry (Open VSX) by default, which doesn't include all extensions available on the official VS Code Marketplace. Some extensions like Claude Code weren't showing up in the default search.
+- **Solution:** Enabled VS Code Marketplace access in Cursor settings (Cursor Settings > Extensions > Enable VS Code Extension Marketplace), which made both extensions available and installable.
+
+### 2. Git identity not configured for the first commit
+- **Issue:** When initializing the local repo, Git refused to commit because no user name or email was set.
+- **Solution:** Ran `git config --global user.name "Franco Giglio"` and `git config --global user.email "francogiglio1801@gmail.com"` to configure the global identity before committing.
+
+### 3. GitHub authentication via HTTPS no longer accepts passwords
+- **Issue:** Running `git push` prompted for credentials, but GitHub rejected the account password — standard password authentication was deprecated.
+- **Solution:** Generated a Personal Access Token (PAT) from GitHub Settings > Developer settings > Personal access tokens, and used that token as the password when prompted during push.
+
+---
+
+## Repository
 
 - **GitHub:** [https://github.com/francogiglio1801/100hires-portfolio](https://github.com/francogiglio1801/100hires-portfolio)
-- **Autor:** Franco Giglio (@francogiglio1801)
-- **Fecha:** Junio 2026
+- **Author:** Franco Giglio ([@francogiglio1801](https://github.com/francogiglio1801))
+- **Date:** June 2026
