@@ -49,3 +49,57 @@ OpenAI's extension for VS Code / Cursor. Provides AI-powered code suggestions an
 - **GitHub:** [https://github.com/francogiglio1801/100hires-portfolio](https://github.com/francogiglio1801/100hires-portfolio)
 - **Author:** Franco Giglio ([@francogiglio1801](https://github.com/francogiglio1801))
 - **Date:** June 2026
+
+
+---
+
+## Research Project: AI-Powered SEO Content Production
+
+**Objective:** Map the current practitioner landscape for AI-assisted SEO content production — identifying who is actually building these workflows, what they've learned, and what patterns emerge across expert approaches.
+
+**Scope:** 10 expert practitioners curated by demonstrated experience (not just commentary), with sources collected across YouTube transcripts, blog posts, newsletters, and LinkedIn content.
+
+### Research Structure
+
+```
+research/
+├── sources.md                          # Annotated master list of all 10 experts
+├── youtube-transcripts/
+│   ├── matt-diggity--seo-strategy-2025.md
+│   └── kevin-indig--ai-overviews-seo-impact.md
+├── linkedin-posts/
+│   ├── lily-ray.md
+│   ├── ryan-law.md
+│   ├── bernard-huang.md
+│   ├── aleyda-solis.md
+│   ├── julian-goldie.md
+│   ├── kevin-indig.md
+│   ├── kyle-byers.md
+│   ├── tim-soulo.md
+│   └── ross-hudgens.md
+└── other/
+    └── collection-methodology.md
+```
+
+### The 10 Experts
+
+| Expert | Role | Key Contribution |
+|--------|------|-----------------|
+| Matt Diggity | CEO, Diggity Marketing | Real-money site testing; brand + topical authority at scale |
+| Lily Ray | VP SEO, Amsive | GEO vs SEO tension; 5 tactics that backfire |
+| Ryan Law | Director of Content, Ahrefs | 14 AI SEO use cases; quality-over-volume framework |
+| Bernard Huang | Co-founder, Clearscope | Topical authority + information gain as AI era foundation |
+| Kevin Indig | Growth Advisor | AIO CTR impact data; cosine similarity optimization |
+| Aleyda Solis | Founder, Orainti | AI search crawlability; LearningAIsearch.com curriculum |
+| Julian Goldie | CEO, Goldie Agency | End-to-end AI pipelines (Gemini → Claude → HeyGen) |
+| Kyle Byers | Director Growth, Semrush | Enterprise AI content; hallucination risk management |
+| Tim Soulo | CMO, Ahrefs | Original data as moat; depth-over-volume framework |
+| Ross Hudgens | Founder, Siege Media | Agency AI ops; E-E-A-T in practice |
+
+### Key Themes Across Experts
+
+1. **AI accelerates production but doesn't replace expertise** — Every practitioner uses AI for speed; none have replaced human judgment on quality.
+2. **GEO and SEO are converging** — ChatGPT/Perplexity draw from Google's index (85–90% correlated per Lily Ray). SEO foundation is prerequisite for AI search visibility.
+3. **Original data is the durable moat** — Content AI cannot produce (proprietary data, real case studies, named expertise) is increasingly the differentiating factor.
+4. **E-E-A-T is now business strategy** — Not a Google checkbox; the actual criterion for AI system source selection.
+5. **Measurement must evolve** — Traditional rank tracking insufficient; need AI search visibility metrics alongside CTR and brand signals.
